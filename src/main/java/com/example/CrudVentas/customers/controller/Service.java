@@ -2,10 +2,11 @@ package com.example.CrudVentas.customers.controller;
 
 import com.example.CrudVentas.customers.model.Customer;
 import com.example.CrudVentas.customers.model.CustomerDAO;
-import jakarta.ws.rs.*;
-import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.core.MultivaluedMap;
 
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.MultivaluedMap;
 import java.util.List;
 
 @Path("/customer")

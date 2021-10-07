@@ -116,7 +116,3 @@ public class EmployeeDAO {
         return flag;
     }
 }
-/*Customer customer = new Customer(customerName,contactLastName,contactFirstName, phone, addressLine1
-            +,addressLine2,city,state,postalCode,country,salesRepEmployeeNumber,creditLimit);
-        System.out.println(customer);
-                return customer; */
