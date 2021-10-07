@@ -18,7 +18,7 @@ public class ProductLinesDAO {
 
         try{
             con = ConnectionMySQL.getConnection();
-            cstm = con.prepareCall("SELECT * FROM productsline;");
+            cstm = con.prepareCall("SELECT * FROM productline;");
             rs = cstm.executeQuery();
 
             while(rs.next()){
@@ -44,7 +44,7 @@ public class ProductLinesDAO {
 
         try{
             con = ConnectionMySQL.getConnection();
-            cstm = con.prepareCall("SELECT * FROM productline WHERE productline = ?;");
+            cstm = con.prepareCall("SELECT * FROM productlines WHERE productline = ?;");
             cstm.setString(1, productLine);
             rs = cstm.executeQuery();
 
