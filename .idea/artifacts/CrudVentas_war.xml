@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="CRUD-1.0-SNAPSHOT.war">
+    <root id="archive" name="rest-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="CrudVentas:war exploded" />
     </root>
   </artifact>
